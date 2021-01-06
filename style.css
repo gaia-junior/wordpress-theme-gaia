@@ -16,16 +16,108 @@ Text Domain:allegiant
 /* --------------------------------------------------------------
 GENERAL ELEMENTS
 -------------------------------------------------------------- */
+/* style sur les lien*/ 
+a:hover {
+    text-decoration: none;
+}
+ 
+/* Style menu mobile */
+#menu-main .menu-item a:hover{
+    color: #d61052 !important;
+}
 
+/* #menu-item-3564 a {
+    background-color: #d61052;
+    color:rgba(255, 255, 255, 0.9);
+    border-radius: 100px;
+} */
+#menu-item-3638 a {
+    background-color: #d61052;
+    color:rgba(255, 255, 255, 0.9);
+    border-radius: 5em;
+}
+
+#menu-item-3600 a:hover {
+    background-color: #d61052;
+    color:rgba(255, 255, 255, 0.9);
+}
+
+#header {
+    background-color: #5c5b5b !important;
+    color:rgba(255, 255, 255, 0.9);
+}
+
+/* footer button */
+#menu-footer-menu-2 .menu-item :nth-child(1) {
+    background-color: #d61052;
+    color:rgba(255, 255, 255, 0.9);
+    border-radius: 5em;
+    margin-bottom: 2px;
+/*    text-align: center;*/
+}
+/* newsletter section style */
+#newsletter-section{
+    display: flex;
+}
+#newsletter-section .newsletter-description{
+    flex:2;
+}
+#newsletter-section .newsletter-form{
+    flex:1;
+}
+#newsletter-section .newsletter-description h2{
+    color: #d61052;
+}
+
+.newsletter-form .email-form {
+    flex:1;
+}
+.newsletter-form .abonnez-form {
+    background-color: #d61052 !important; color: #fff; flex:1;
+}
+
+/* media query pour la newsletter section*/
+@media screen and (max-width: 1280px)
+{
+    #newsletter-section{
+        width: auto;
+        flex-direction: column;
+    }
+    #newsletter-section .newsletter-description{
+        flex:1;
+    }
+    #newsletter-section .newsletter-form{
+        flex:1;
+    }
+    #newsletter-section .newsletter-description h2{
+        color: #d61052;
+    }
+    
+    #newsletter-section .newsletter-description p{
+        display: none;
+    }
+        
+    .newsletter-form .email-form {
+        flex:1;
+    }
+    .newsletter-form .abonnez-form {
+        background-color: #d61052 !important; color: #fff; flex:1;
+    }    
+}
+
+/* style sur la section blog de la page d'accueil */
+.wrapper #main #sidebar {
+    display: none;
+}
 /* BODY */
 ::selection {
     color: #fff;
-    background-color: #89ce40;
+    background-color: #d61052;/* #89ce40; */
 }
 
 ::-moz-selection {
     color: #fff;
-    background-color: #89ce40;
+    background-color: #d61052;/* #89ce40; */
 }
 
 body {
@@ -108,11 +200,11 @@ input[type=submit] {
 
 /* MAIN THEME COLORS */
 body .primary-color {
-    color: #89ce40;
+    color: #d61052;/* #89ce40; */
 }
 
 body .primary-color-bg {
-    background-color: #89ce40;
+    background-color: #d61052;/* #89ce40; */
 }
 
 body .secondary-color {
@@ -129,10 +221,10 @@ html body .button:link,
 html body .button:visited,
 input[type=submit] {
     border-radius: 2px;
-    border: 2px solid #89ce40;
+    border: 2px solid #d61052;/* #89ce40; */
     text-shadow: none;
-    background: none;
-    color: #89ce40;
+    background: #d61052 !important;
+    color:  #edf3e6; /*  #d61052; */
     -moz-transition: 0.4s all;
     -webkit-transition: 0.4s all;
     transition: 0.4s all;
@@ -143,7 +235,7 @@ html body .button:focus,
 input[type=submit]:hover,
 input[type=submit]:focus {
     color: #fff;
-    background: #89ce40;
+    background: #d61052;/* #89ce40; */
 }
 
 /* --------------------------------------------------------------
@@ -316,7 +408,7 @@ LAYOUT
 .slider .slider-prev:focus:after,
 .slider .slider-next:focus:before,
 .slider .slider-next:focus:after {
-	background: #89ce40;
+	background: #d61052; /* #89ce40; */
 }
 
 .slider-prev,
@@ -511,7 +603,7 @@ LAYOUT
 .section-heading:before {
     content: ' ';
     position: absolute;
-    background: #bbb;
+    background: #d61052;/* #bbb; */
     bottom: 0;
     left: 50%;
     margin-left: -50px;
