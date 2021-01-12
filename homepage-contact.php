@@ -4,8 +4,8 @@
 
 		<div class="row">
 			<div class="column col4x2">
-				<p>GAIA Junior est une Junior Création, membre du mouvement CNJE des Junior-Entreprises de France. GAIA Junior est la première Junior Création avec la double compétence en développement durable et big data.GAIA Junior est une Junior Création, membre du mouvement CNJE des Junior-Entreprises de France. GAIA Junior est la première Junior Création avec la double compétence en développement durable et big data.</p>
-				<p>Issu d'une fusion de deux écoles (ESI Business School et IA School), le groupe GEMA se lance aujourd'hui dans l'aventure Junior Entreprise, fort des compétences multiples de ses élèves et de ses responsables pédagogiques, et animé de la détermination sans faille des 19 membres de GAIA Junior.</p>
+				<p style="text-align: justify;">GAIA Junior est une Junior Création, membre du mouvement CNJE des Junior-Entreprises de France. GAIA Junior est la première Junior Création avec la double compétence en développement durable et big data.GAIA Junior est une Junior Création, membre du mouvement CNJE des Junior-Entreprises de France. GAIA Junior est la première Junior Création avec la double compétence en développement durable et big data.</p>
+				<p style="text-align: justify;">Issu d'une fusion de deux écoles (ESI Business School et IA School), le groupe GEMA se lance aujourd'hui dans l'aventure Junior Entreprise, fort des compétences multiples de ses élèves et de ses responsables pédagogiques, et animé de la détermination sans faille des 19 membres de GAIA Junior.</p>
 			</div>
 			<div class="column col4x1">
 				<?php
@@ -29,5 +29,16 @@
 			<div class="clear"></div>
 			<div class="clear"></div>
 		</div>
-	</div>
+	</div></br></br>
+
+
+	<div class="container">
+		<div class="contact-heading section-heading">Our News</div>
+			<!-- Ici nous avons modifier le fichier afin d'inserer le shortcode du plugin post grid -->
+			<!-- ce plugin nous permet d'afficher les derniers post avec une pagination customizable -->
+			<?php echo do_shortcode("[post_grid id='3629']"); ?>
+		<div class="clear"></div>
+		<div class="clear"></div>
+	</div>	
+
 </div>
