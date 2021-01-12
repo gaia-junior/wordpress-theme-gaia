@@ -107,8 +107,9 @@ a:hover {
 
 /* style sur la section blog de la page d'accueil */
 .wrapper #main #sidebar {
-    display: none;
+    /*display: none;*/
 }
+
 /* BODY */
 ::selection {
     color: #fff;
